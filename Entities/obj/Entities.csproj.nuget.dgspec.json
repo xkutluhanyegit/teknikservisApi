@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Entities\\Entities.csproj": {}
+    "c:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Entities\\Entities.csproj": {
+    "c:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Entities\\Entities.csproj",
+        "projectUniqueName": "c:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Entities\\Entities.csproj",
+        "projectPath": "c:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Entities\\obj\\",
+        "outputPath": "c:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kutluhan.yegit\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,28 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
