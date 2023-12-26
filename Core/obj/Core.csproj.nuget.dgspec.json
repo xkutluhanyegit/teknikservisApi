@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\Core.csproj": {}
+    "c:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\Core.csproj": {
+    "c:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\Core.csproj",
+        "projectUniqueName": "c:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\Core.csproj",
+        "projectPath": "c:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\obj\\",
+        "outputPath": "c:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kutluhan.yegit\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
