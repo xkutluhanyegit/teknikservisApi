@@ -1,17 +1,76 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\DataAccess\\DataAccess.csproj": {}
+    "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "c:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\DataAccess\\DataAccess.csproj",
-        "projectName": "DataAccess",
-        "projectPath": "c:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kutluhan.yegit\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\DataAccess\\DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kutluhan.yegit\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +85,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Entities\\Entities.csproj": {
-                "projectPath": "c:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Entities\\Entities.csproj"
+              "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\Core.csproj"
+              },
+              "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Entities\\Entities.csproj"
               }
             }
           }
@@ -79,18 +141,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Entities\\Entities.csproj": {
+    "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "c:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kutluhan.yegit\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -104,7 +166,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -154,7 +220,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }

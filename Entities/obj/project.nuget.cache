@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mtfHXCXxGQMiuInod+1O8z/4VYIYvj5LmWh9eNiqXeaE1oM0p47/pId+X9VJoTvAHky+fVviOlnSG+8mdfI5fg==",
+  "dgSpecHash": "K7TSgbAX8jMYlNzGb/Aw9Bxm2P1ZbsCF7WLb383aSX+wKOZDKYaXK5YjAuvJasYgyUwKuK+CDD1vIRcOkmI3Ng==",
   "success": true,
-  "projectFilePath": "c:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

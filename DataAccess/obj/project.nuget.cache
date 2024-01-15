@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z94gF95YcaC+u0nI1A6F1pJFqrxcmo0i6eXOB00T10oFW3+ubPqaNVFnjfJABQoVUCb4hC5IlpEDJliun3veSg==",
+  "dgSpecHash": "DB1f6s/KpWWuI3NWAg4HdblDqpcqtCj9JA/fZnLh2a4oNdpiRxXL9RqWWkx3L5ii4qpcdGqZb2xKWlOf3QLODQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

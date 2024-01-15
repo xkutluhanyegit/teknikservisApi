@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2Q5iR/CxxxJKqT4kCYeEpZxmm8kluuRo7QlZiirGfI+7fQgvjD53GGjdDGf43c2bJfRdVjb69tAy3S4463qTDw==",
+  "dgSpecHash": "/V5IL3Q2hw4rdzhp+ifdr0Biw0Kd5VSCOFSdOsb/EsTrJg2sYNFivs7MselBqS6z8mEd2+CwqGAqr4ITdJVudg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.14\\microsoft.entityframeworkcore.7.0.14.nupkg.sha512",
     "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.14\\microsoft.entityframeworkcore.abstractions.7.0.14.nupkg.sha512",

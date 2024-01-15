@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\Core.csproj": {}
+    "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\Core.csproj": {}
   },
   "projects": {
-    "c:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\Core.csproj": {
+    "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "c:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\obj\\",
+        "outputPath": "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kutluhan.yegit\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }
