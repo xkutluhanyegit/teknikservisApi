@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/V5IL3Q2hw4rdzhp+ifdr0Biw0Kd5VSCOFSdOsb/EsTrJg2sYNFivs7MselBqS6z8mEd2+CwqGAqr4ITdJVudg==",
+  "dgSpecHash": "3Ng71fnGkbQRHIxdDYLj9daueQpUtPhHka1XZ81IWVlH4U7Jxo56KpVLKNsy3ozgq+7kP8R8KNfwl8Sfe1AF8A==",
   "success": true,
   "projectFilePath": "C:\\Users\\kutluhan.yegit\\Desktop\\teknikservisApi\\Core\\Core.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.14\\microsoft.entityframeworkcore.7.0.14.nupkg.sha512",
     "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.14\\microsoft.entityframeworkcore.abstractions.7.0.14.nupkg.sha512",
     "C:\\Users\\kutluhan.yegit\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.14\\microsoft.entityframeworkcore.analyzers.7.0.14.nupkg.sha512",

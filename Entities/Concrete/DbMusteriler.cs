@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using Core.Entities;
 
 namespace Entities.Concrete;
 
-public partial class DbMusteriler
+public partial class DbMusteriler:IEntity
 {
     public int MusteriId { get; set; }
 

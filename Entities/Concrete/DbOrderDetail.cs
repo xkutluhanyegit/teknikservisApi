@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using Core.Entities;
 
 namespace Entities.Concrete;
 
-public partial class DbOrderDetail
+public partial class DbOrderDetail:IEntity
 {
     public int DetailId { get; set; }
 

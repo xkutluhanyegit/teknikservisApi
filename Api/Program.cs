@@ -1,5 +1,8 @@
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
 using Business.Abstract;
 using Business.Concrete;
+using Business.DependencyResolvers.Autofac;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
 
@@ -13,8 +16,19 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
+/*
+
+IOC Default from Microsoft .NET
+
 builder.Services.AddSingleton<IDbOrderDAL,EfDbOrderDAL>();
 builder.Services.AddSingleton<IDbOrderService,DbOrderManager>();
+
+*/
+
+/*Autofac*/
+builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory()).ConfigureContainer<ContainerBuilder>(builder => {
+    builder.RegisterModule(new AutofacBusinessModule());
+});
 
 
 var app = builder.Build();

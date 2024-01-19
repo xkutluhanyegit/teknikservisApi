@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using Core.Entities;
 
 namespace Entities.Concrete;
 
-public partial class DbProductOption
+public partial class DbProductOption:IEntity
 {
     public int ProdId { get; set; }
 
